@@ -2,16 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>RSHB_Exam_DataAccessLib</RootNamespace>
+    <RootNamespace>RSHB_Exam_BusinessLogicLib</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.9" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\RSHB-Exam_DataAccessLib\RSHB-Exam_DataAccessLib.csproj" />
     <ProjectReference Include="..\RSHB-Exam_ModelLib\RSHB-Exam_ModelLib.csproj" />
   </ItemGroup>
 

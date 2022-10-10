@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\RSHB-Exam_BusinessLogicLib\RSHB-Exam_BusinessLogicLib.csproj" />
+    <ProjectReference Include="..\RSHB-Exam_DataAccessLib\RSHB-Exam_DataAccessLib.csproj" />
+    <ProjectReference Include="..\RSHB-Exam_ModelLib\RSHB-Exam_ModelLib.csproj" />
   </ItemGroup>
 
 </Project>
